@@ -1,0 +1,157 @@
+/* Universal Selector */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  text-align: center;
+  /* margin: 20px; */
+  padding: 30px;
+  background-color: rgb(8, 8, 7);
+}
+
+header h1 {
+  font-size: 40px;
+  color: white;
+}
+
+nav {
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  /* text-align: center; */
+}
+
+nav ul li a {
+  color: black;
+  margin: 0px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: #888;
+}
+
+.home {
+  text-align: center;
+  padding: 30px;
+  background-image: url("../Images/professional-software-developer.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.home__content {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+.home__content h4 {
+  font-weight: 300;
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.home__content h2 {
+  font-weight: 300;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.skills {
+  background-image: url("../Images/code_skills.jpg");
+  text-align: center;
+  padding: 30px;
+  background-position: center;
+  background-size: cover;
+}
+
+.skills h3,
+.aboutme h3,
+.contact h3 {
+  font-size: 38px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.skills__img {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.skills__img img {
+  object-fit: contain;
+  width: 25%;
+  max-width: 700px;
+}
+
+.aboutme {
+  background-image: url("../Images/cool_background.jpg");
+  text-align: center;
+  padding: 30px;
+  background-position: center;
+  background-size: cover;
+}
+
+.aboutme__content {
+  color: #fff;
+  padding-bottom: 20px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.aboutme__content p {
+  line-height: 25px;
+  margin: 25px;
+}
+
+.contact {
+  background-image: url(../Images/contactus.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+}
+
+.contact__form input {
+  border: 1px solid #dfdfdf;
+  padding: 8px;
+  width: 50%;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.contact__form button {
+  border-radius: 4px;
+  border: none;
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}

@@ -1,0 +1,64 @@
+<!--header, nav, 4 sections, form : contact, footer-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pramod - Profile Page</title>
+    <link href="/css/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Pramod Kumar CK</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#home" onclick="scrollTo('home')">Home</a></li>
+        <li><a href="#skills" onclick="scrollTo('skills')">Skills</a></li>
+        <li><a href="#aboutme" onclick="scrollTo('aboutme')">About Me</a></li>
+        <li><a href="#contact" onclick="scrollTo('contact')">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="home" id="home">
+      <div class="home__content">
+        <h2>Hey, I'm</h2>
+        <h4>a Front end Developer and a professional Cricketer!</h4>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <h3>Skills</h3>
+      <div class="skills__img">
+        <img src="/Images/HtmlCssJs.png" alt="Skills img" />
+      </div>
+    </section>
+    <section class="aboutme" id="aboutme">
+      <h3>AboutMe</h3>
+      <div class="aboutme__content">
+        <p>"I use bits and pieces of others' personalities to form my own.”</p>
+        <p>
+          “It's beauty that captures your attention; personality that captures
+          your heart..”
+        </p>
+      </div>
+    </section>
+    <section class="contact" id=contact>
+      <h3>Contact</h3>
+      <form class="contact__form" action="">
+        <div>
+          <input type="text" placeholder="Enter your name here" /><br />
+        </div>
+        <div><input type="email" placeholder="Enter valid email" /><br /></div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <br />
+    <footer>
+      <h5>@Copyright Pramod 2022. Designed by Pramod.</h5>
+    </footer>
+  </body>
+</html>
